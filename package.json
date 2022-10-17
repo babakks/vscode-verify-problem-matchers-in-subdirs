@@ -1,0 +1,9 @@
+{
+    "name": "dummy-vscode-verify-task-variables",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "echo": "echo 'error: package.json'"
+    }
+}

@@ -1,0 +1,35 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "subdir",
+            "type": "npm",
+            "path": "subdir",
+            "script": "echo",
+            "problemMatcher": {
+                "applyTo": "allDocuments",
+                "fileLocation": "relative",
+                "pattern": {
+                    "kind": "file",
+                    "regexp": "^error: (.*)$",
+                    "file": 1,
+                    "message": 0
+                }
+            }
+        },
+        {
+            "label": "root",
+            "type": "npm",
+            "script": "echo",
+            "problemMatcher": {
+                "applyTo": "allDocuments",
+                "pattern": {
+                    "kind": "file",
+                    "regexp": "^error: (.*)$",
+                    "file": 1,
+                    "message": 0
+                }
+            }
+        }
+    ]
+}
